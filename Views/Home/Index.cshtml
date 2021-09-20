@@ -1,0 +1,20 @@
+﻿@model Demo4.Models.Person
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Index Page</h1>
+    <p>Hello @ViewBag.name</p>
+    <p>Server Time is : @ViewBag.servertime</p>
+    <p>Person ID is: @Model.PersonId and name is @Model.PersonName</p>
+</body>
+</html>
